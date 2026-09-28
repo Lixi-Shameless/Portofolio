@@ -2,6 +2,7 @@
     "version": 2,
     "framework": null,
     "outputDirectory": "public",
+    "installCommand": "composer install --no-dev --prefer-dist --optimize-autoloader",
     "functions": {
         "api/index.php": {
             "runtime": "vercel-php@0.9.0"
